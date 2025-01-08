@@ -6,8 +6,9 @@ class Solution(object):
                 x=x+1
             elif i == "X--" or i == "--X":
                 x=x-1
+        print(x)
         return x
                 
 obj=Solution()
-operations = ["X++","++X","--X","X--"]
+operations = ["X++","++X","--X"]
 obj.finalValueAfterOperations(operations)

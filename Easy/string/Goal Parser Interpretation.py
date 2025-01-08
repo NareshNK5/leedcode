@@ -5,10 +5,10 @@ class Solution(object):
         :type command: str
         :rtype: str
         """
-        print(command)
+        # print(command)
         out=""
         for i in range(len(command)):
-            print(i)
+            # print(i)
             if command[i]=="G":
                 out+="G"
             elif command[i]=="(" and (command[i+1])==")":
@@ -18,6 +18,6 @@ class Solution(object):
         print(out)
             
 obj=Solution()
-#command = "G()(al)"
-command = "G()()()()(al)"
+command = "G()(al)"
+# command = "G()()()()(al)"
 obj.interpret(command)

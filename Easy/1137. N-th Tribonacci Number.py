@@ -7,7 +7,7 @@ class Solution(object):
             d[0],d[1],d[2]=d[1],d[2],sum(d)
         print(d[2])
 obj = Solution()
-n=25
+n=5
 obj.tribonacci(n)
 
 '''

@@ -4,7 +4,6 @@ class Solution(object):
         :type sentences: List[str]
         :rtype: int
         """
-        
         print(sentences)
         splt=[]
         x=0

@@ -6,15 +6,16 @@ class Solution(object):
         :rtype: int
         """
         total=[]
-        print(jewels, stones)
+        # print(jewels, stones)
         for i in jewels:
             for j in stones:
-                print(i,j)
+                # print(i,j)
                 if i == j:
                     total.append(i)
                     tot=len(total)
                 else:
                     tot=len(total)+0
+        # print(tot)
         return tot
                 
             
